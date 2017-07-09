@@ -1,0 +1,807 @@
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background: #e9ebee;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+
+/*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*/
+.header{
+   position: fixed;
+   right: 0;
+   left: 0;
+   top:0;
+   background: #222222;
+   border-bottom: 1px black #171717;
+   height: 80px;
+   font-family: arial;
+   overflow: hide;
+   z-index: 1;
+}
+
+.header a{
+   background: #222222;
+   color: white;
+}
+.header_logo{
+   position: relative;
+   top: 8px;
+   left: 10px;
+
+}
+.header_logo a{
+   width: 220px;
+   float: left;
+   font-family: 'Bree Serif', serif;
+   font-size: 40px;
+   height: 55px;
+padding-bottom: 8px;
+}
+.btn_login {
+   display: flex;
+   float: right;
+   width: 300px;
+   position: relative;
+   top: 15px;
+   font-family: 'Bree Serif', serif;
+}
+.header_login{
+   font-size: 25px;
+   font-style: bold;
+   width: 140px;
+   display: flex;
+   padding-right: 10px;
+}
+.header_login a{
+   height: 43px;
+   width: 140px;
+   padding-top: 7px;
+   background: #337ab7;
+   border-radius: 6px;
+}
+.header_login a:hover{
+   background: #24547e;
+}
+.header_register{
+   font-size: 25px;
+   font-style: bold;
+   width: 140px;
+   display: flex;
+}
+.header_register a{
+   height: 43px;
+   width: 140px;
+   padding-top: 7px;
+   background: #4c4c4c;
+   border-radius: 6px;
+}
+.header_register a:hover{
+   background: #373737;
+}
+
+/*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*//*BUTTON*/
+a:link, a:visited {
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+a:hover {
+    background-color: #373737;
+    border-radius: 6px;
+
+}
+a:active{
+    background-color: #e48a05;
+}
+
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+.footer{
+  width: 100%;
+  height: 80px;
+  background: #181818;
+}
+
+.footer_text{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.footer_text h3{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: block;
+}
+.footer_text_hh{
+  font-family: 'Bree Serif', serif;
+}
+.footer_up{
+  display: block;
+  cursor: pointer;
+  font-size: 30px;
+}
+/*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*/
+  .in_first{
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 1278px;
+    height: 412px;
+  }
+  .in_desc{
+    border-right: 1px solid gray;
+    padding-right: 70px;
+    width: 803px;
+    height: 410px;
+    display: inline-block;
+  }
+  .in_desc img{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 6px;
+    background: black;
+    height: 407px;
+  }
+
+  .in_desc figcaption{
+    color: white;
+    position: relative;
+    top: -150px;
+    background: rgba(43, 46, 46, 0.7);
+    width: 797px;
+    height: 110px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .in_btn{
+    display: inline-block;
+    width: 350px;
+    float: right;
+  }
+
+  .in_btn_frst{
+    color: white;
+    width: 350px;
+    height: 155px;
+    background: gray;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    border: 2px solid #323333;
+    display:block;
+    font-size: 75px;
+    padding-top: 40px;
+    background: #323333;
+    font-family: 'Bree Serif', serif;
+  }
+    .in_btn_frst:hover{
+      background: #F7F7F7;
+      duration: 0.5s;
+      color: #323333;
+    }
+
+  .in_btn_sec{
+    color: white;
+    width: 350px;
+    height: 155px;
+    background: gray;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    border: 2px solid #5CA6DC;
+    display:block;
+    font-size: 75px;
+    padding-top: 40px;
+    background: #5CA6DC;
+    font-family: 'Bree Serif', serif;
+
+  }
+
+    .in_btn_sec:hover{
+      background: #88D2F2;
+      duration: 0.5s;
+      color: #f5971d;
+    }
+
+    .in_second{
+      border-top: 1px solid #81868F;
+      border-bottom: 1px solid #81868F;
+      width: 1320px;
+      margin: 0 auto;
+      margin-top: 65px;
+      padding: 10px;
+      padding-bottom: 20px;
+    }
+
+    .in_sec_text{
+      margin: 0;
+      text-align: center;
+      font-style: italic;
+      color: gray;
+      font-size: 20px;
+    }
+
+    .in_sec_sign{
+      margin: 0;
+      text-align: right;
+      margin-right: 160px;
+      font-family: 'Bree Serif', serif;
+      font-size: 25px;
+    }
+
+    .down{
+      color: #373737;
+      font-size: 90px;
+      font-family: 'Bree Serif', serif;
+      margin: 0 auto;
+      display: block;
+      width: 85px;
+      margin-top: 30px;
+    }
+    .down:hover{
+      background: none;
+      color: gray;
+      cursor: pointer;
+    }
+    .in_third{
+      background: #4c4c4c;
+      height: 900px;
+      margin-top: 55px;
+    }
+    .in_th_box{
+        margin: 0 auto;
+        width: 1615px;
+        padding-top: 50px;
+    }
+
+    .in_th_box div{
+      display: inline-table;
+      height: 700px;
+      width: 350px;
+      margin: 25px;
+      margin-top: 35px;
+      background: #404040;
+      border-radius: 6px;
+    }
+
+    .in_th_box h2{
+      color: white;
+      font-family: 'Bree Serif', serif;
+      text-align: center;
+      height: 180px;
+      padding-top: 100px;
+      font-size: 45px;
+      background: #353535;
+      margin: 0;
+      border-bottom: 1px solid #383838;
+    }
+
+    .in_th_box p{
+      color: white;
+      text-align: justify;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 5px;
+      margin-top: 0px;
+      height: 300px;
+    }
+
+    .in_th_box_a{
+      color: white;
+      display: block;
+      width: 350px;
+      height: 75px;
+      padding-top: 25px;
+      font-family: 'Bree Serif', serif;
+      font-size: 30px;
+      margin: 0 auto;
+      background: #f5971d
+    }
+
+    .in_th_box_a:hover{
+      background: #efaa50;
+      border-radius: 0px;
+    }
+
+/*SEL_STUDENT*//*SEL_STUDENT*//*SEL_STUDENT*//*SEL_STUDENT*//*SEL_STUDENT*/
+.sel_std_box{
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.sel_std_sidebar{
+  background: #424242;
+  display: inline-table;
+  width: 325px;
+  height: 640px;
+  margin-top: 150px;
+  color: white;
+  font-family: 'Bree Serif', serif;
+  padding: 15px;
+  padding-top: 5px;
+  border-radius: 6px;
+}
+.sel_std_sidebar h1{
+  margin: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffb14b;
+  font-size: 40px;
+}
+.sel_std_sidebar a{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  width: 310px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 18px;
+}
+.categories, .level, .type{
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+.categories h2{
+  margin-top: -20px;
+  margin-left: 35px;
+  background: #424242;
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.level h2{
+  margin-top: -20px;
+  margin-left: 120px;
+  background: #424242;
+  display: block;
+  width: 80px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.type h2{
+  margin-top: -20px;
+  margin-left: 120px;
+  background: #424242;
+  display: block;
+  width: 80px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.sel_std_results{
+  border: 1px solid black;
+  display: inline-table;
+  background: #424242;
+  border-radius: 6px;
+  margin-left: 50px;
+  width: 870px;
+  height: 1000px;
+}
+.sel_std_results h1{
+  font-family: 'Bree Serif', serif;
+  color: #56a6ff;
+  margin: 15px;
+  font-size: 40px;
+  margin-left: 25px;
+}
+
+.result_box{
+  color: white;
+  border-bottom: 2px solid #d6d6d6 ;
+  list-style-type: none;
+  width: 810px;
+  margin: 10px;
+  margin-left: -15px;
+  padding: 5px;
+}
+.list{
+  display: inline;
+}
+
+.result_box h2{
+  font-family: 'Bree Serif', serif;
+  color: #f36d6d;
+  font-size: 28px;
+  margin: 3px;
+}
+.res_box_dane{
+  border-right: 1px solid gray;
+  min-width: 150px;
+  display: inline-table;
+  padding-right: 15px;
+  width: 150px;
+}
+.res_box_desc{
+  display: inline-table;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  width: 620px;
+  text-align: justify;
+}
+
+/*ADD_ARTICLE*//*ADD_ARTICLE*//*ADD_ARTICLE*//*ADD_ARTICLE*//*ADD_ARTICLE*/
+.add_art{
+  margin: 0 auto;
+  margin-top: 155px;
+  width: 500px;
+  height: 700px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  background: #555555;
+  font-family: 'Bree Serif', serif;
+  color: white;
+}
+.add_art label{
+  display: block;
+}
+.add_art_sel {
+  padding: 25px;
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  padding-top: 5px;
+}
+.add_art_sel div{
+  display: inline-table;
+  padding: 7px;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.cat label{
+  background: #555555;
+  margin-top: -25px;
+  width: 105px;
+  margin-left: 3px;
+  font-size: 20px;
+}
+.lvl label{
+  background: #555555;
+  margin-top: -25px;
+  width: 60px;
+  margin-left: 19px;
+  font-size: 20px;
+}
+.typ label{
+  background: #555555;
+  margin-top: -25px;
+  width: 50px;
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.title, .user{
+  display: block;
+  padding: 7px;
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.title label, .user label{
+  background: #555555;
+  margin-top: -24px;
+  width: 60px;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.title input, .user input{
+  width: 437px;
+  height: 25px;
+  font-size: 16px;
+  padding: 3px;
+}
+.text{
+  display: block;
+  padding: 7px;
+  margin: 20px;
+  margin-top: 0px;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+.text label{
+  background: #555555;
+  margin-top: -24px;
+  width: 130px;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text textarea{
+  width: 437px;
+  min-width: 437px;
+  max-width: 437px;
+  min-height: 230px;
+  max-height: 230px;
+  font-size: 15px;
+
+}
+
+.send_button{
+  display: block;
+  width: 300px;
+  height: 55px;
+  margin: 0 auto;
+  background: white;
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+}
+
+.send_button:hover{
+  color: #f5971d;
+  box-shadow: 3px 3px 5px #505050;
+  transition-duration: 0.2s;
+}
+
+.add_art h2{
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+  margin-bottom: 35px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+}
+
+/*LOGIN*//*LOGIN*//*LOGIN*//*LOGIN*//*LOGIN*//*LOGIN*//*LOGIN*//*LOGIN*//*LOGIN*/
+
+.login_article{
+  margin: 0 auto;
+  margin-top: 250px;
+  width: 400px;
+  height: 390px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background: #555555;
+  font-family: 'Bree Serif', serif;
+  color: white;
+}
+
+.popup-shadower{
+  text-align: center;
+  margin: 0 auto;
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background: #595959;
+}
+
+.log_lg{
+  display: block;
+  padding: 7px;
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.log_lg label{
+  background: #595959;
+  width: 80px;
+  font-size: 25px;
+  margin-top: -27px;
+  display: block;
+  margin-left: 85px;
+}
+
+.log_lg input{
+  width: 240px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.log_pass{
+  display: block;
+  margin: 0 auto;
+  padding: 7px;
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 250px;
+
+}
+
+.log_pass label{
+  background: #595959;
+  width: 140px;
+  font-size: 25px;
+  margin-top: -27px;
+  display: block;
+  margin-left: 57px;
+}
+
+.log_pass input{
+  width: 240px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.captcha{
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*REGISER*//*REGISER*//*REGISER*//*REGISER*//*REGISER*//*REGISER*//*REGISER*//*REGISER*/
+
+.register_article{
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 400px;
+  height: 600px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background: #555555;
+  font-family: 'Bree Serif', serif;
+  color: white;
+}
+
+.popup-shadower{
+  text-align: center;
+  margin: 0 auto;
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background: #595959;
+}
+
+.reg_log, .reg_pass, .reg_name, .reg_sur, .reg_email{
+  display: block;
+  padding: 7px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 250px;
+
+
+}
+
+.reg_log label{
+  background: #595959;
+  width: 120px;
+  font-size: 20px;
+  margin-top: -23px;
+  display: block;
+  margin-left: 70px;
+}
+
+.reg_log input{
+  width: 240px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.reg_pass label{
+  background: #595959;
+  width: 120px;
+  font-size: 20px;
+  margin-top: -23px;
+  display: block;
+  margin-left: 70px;
+}
+
+.reg_pass input{
+  width: 240px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.reg_name label{
+  background: #595959;
+  width: 70px;
+  font-size: 20px;
+  margin-top: -23px;
+  display: block;
+  margin-left: 95px;
+}
+
+.reg_name input{
+  width: 240px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.reg_sur label{
+  background: #595959;
+  width: 110px;
+  font-size: 20px;
+  margin-top: -23px;
+  display: block;
+  margin-left: 75px;
+}
+
+.reg_sur input{
+  width: 240px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.reg_email label{
+  background: #595959;
+  width: 80px;
+  font-size: 20px;
+  margin-top: -23px;
+  display: block;
+  margin-left: 90px;
+}
+
+.reg_email input{
+  width: 240px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.add_art_db{
+  display: block;
+  margin-top: 200px;
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.login_done{
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  border: 2px solid #333333;
+  background: #353535;
+  font-family: 'Bree Serif', serif;
+}
+
+.login_error {
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  border: 2px solid #333333;
+  background: #353535;
+  font-family: 'Bree Serif', serif;
+}
+
+.login_error a{
+  color: #337ab7;
+  font-family: 'Bree Serif', serif;
+}
+
+.sub_user {
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border: 2px solid #333333;
+  background: #353535;
+  font-family: 'Bree Serif', serif;
+}
+
+.sub_user a{
+  display: inline;
+  color: #337ab7;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+}
